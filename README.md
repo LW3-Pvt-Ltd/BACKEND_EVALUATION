@@ -12,7 +12,7 @@ Build a small system to track the lifecycle of a physical product. A product get
 
 *REST API with these endpoints:*
 
-1. POST `/products` — register a new product
+1. POST `/products` — register a new product (few attributes - name, date and country of manufacture, company name etc.)
 2. POST `/products/:id/events` — append a lifecycle event
 3. GET `/products/:id` — fetch product with full event history
 4. GET `/products` — list products with filters: status, date range, partner ID, pagination
@@ -28,7 +28,7 @@ Build a small system to track the lifecycle of a physical product. A product get
 5. The GET `/products` list endpoint must handle 100k+ products performantly.
 
 
-*Frontend (React):*
+### Frontend (React):
 
 1. A page to view a product's event timeline
 2. A form to add a new event
@@ -38,4 +38,5 @@ Build a small system to track the lifecycle of a physical product. A product get
 
 1. Working code in a Git repo with meaningful commit history — not one giant `"initial commit."`
 2. A `README` with setup instructions, assumptions, and what you'd do with more time.
-3. **Time budget:** Shouldn't be more than 4-6 hrs. Don't spend more than 8 hours. Submit what you have.
+3. **Time budget:** Shouldn't be more than `4-6 hrs`. Don't spend more than 8 hours. Submit what you have.
+4. If something is not written, `assume` and write the assumption in `Assumption.md`

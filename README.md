@@ -67,9 +67,8 @@ A minimal UI with just two screens:
    - Any assumptions you made
    - What you'd do differently or add with more time
 
-3. **A `DECISIONS.md`** answering the questions below. This is the most important artifact — please don't skip it.
 
-4. **A short screen recording (5 minutes max).** Use Loom, or any tool. Demo the running app and walk through one piece of code you found tricky or interesting. Unscripted is fine — we prefer authenticity over polish.
+3. **A short screen recording (5 minutes max).** Use Loom, or any tool. Demo the running app and walk through one piece of code you found tricky or interesting. Unscripted is fine — we prefer authenticity over polish.
 
 ---
 
